@@ -9,8 +9,8 @@ def load_split_pdf(file_path):
 
     # Initialize the recursive character text splitter
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,  # Set the maximum chunk size
-        chunk_overlap=50,  # Set the number of overlapping characters between chunks
+        chunk_size=100,  # Set the maximum chunk size
+        chunk_overlap=20,  # Set the number of overlapping characters between chunks
         separators=["\n\n", "\n", " ", ""],  # Define resume-specific separators for splitting
     )   
 
