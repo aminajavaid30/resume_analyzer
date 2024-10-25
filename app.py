@@ -8,6 +8,9 @@ st.set_page_config(layout="wide")
 def main():
     st.title("Resume Analyzer")
 
+    with st.sidebar:
+        st.image("resume_analyzer_logo.png", width=150)
+
     # Create two columns with a 3:2 ratio for layout
     col1, col2 = st.columns([3, 2])
 
