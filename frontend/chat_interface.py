@@ -16,9 +16,7 @@ def render_chat_interface():
         <style>
         .stChatInput {
             position: fixed;
-            bottom: 0;
-            right: 0;
-            width: 40%;
+            bottom: 0;   
             padding: 1rem;
             background-color: white;
             z-index: 1000;
