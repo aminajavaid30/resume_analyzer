@@ -8,7 +8,7 @@ load_dotenv()  # Load environment variables from .env file
 os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")  # Set the Groq API key from environment variables
 
 # Initialize the ChatGroq model with the specified model name
-llm = ChatGroq(model_name="mixtral-8x7b-32768")
+llm = ChatGroq(model_name="mistral-saba-24b")
 
 def analyze_resume(full_resume, job_description):
     # Template for analyzing the resume against the job description
